@@ -1,0 +1,21 @@
+$body: cornflowerblue;
+
+
+@import './general.scss';
+@import './fonts.scss';
+
+#persona {
+    list-style: none;
+    padding: 0;
+    li{
+        padding:1rem;
+        font-size:1.4rem;
+        background: $body;
+        color:#fff;
+    }
+    &:nth-child(2n+1){
+        color::#fff;
+        background: $body;
+        
+    }
+}
